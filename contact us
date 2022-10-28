@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>etailor home page</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="home.css">
+	<header>
+    <img class="logo" src="" alt="logo">
+    
+    <h1>e<span>TAILOR</span></h1>
+    <nav>
+
+    	<ul class="nav_links">
+        <li><a href="etailor home.html">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+    	</ul></nav>
+
+    	<a class="cta" href="registration.html" target="_blank"><button>Register</button></a>
+	</header>
+
+	<div class="container">
+    <div class="row">
+        <div class="col-1">
+    <img src="C:\Users\KIIT\etailor\tailor.jpeg.jpg"></div>
+<div class="col-2">
+    <h1>Harsh<span>Verma</span></h1>
+      <h2>Founder of eTailor</h2>
+      <h3><p>Mr. Harsh Verma, the founder of eTailor is a 20 years old engineering student persuing his B.Tech in computer science and technology from the KIIT University,bhubaneshwar,India. </p></h3>
+      <h4>Delivery within 1 day</h4>
+      <h5>All at insane low costs</h5>
+      <img src="C:\Users\KIIT\etailor\color.png.png">
+      
+     <a class="button" target="_blank" href="order.html"><button>Stitch Now</button></a>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<html>
+<head>
+	<title>etailor home page</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="home.css">
+	<header>
+    <img class="logo" src="" alt="logo">
+    
+    <h1>e<span>TAILOR</span></h1>
+    <nav>
+
+    	<ul class="nav_links">
+        <li><a href="etailor home.html">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+    	</ul></nav>
+
+    	<a class="cta" href="registration.html" target="_blank"><button>Register</button></a>
+	</header>
+
+    <div class="main">
+            <link rel="stylesheet" type="text/css" href="
+        registration.css">
+
+        
+
+            <div class="register">
+
+            <h2>Order your stitch</h2>
+                <form id="register" action="https://sheetdb.io/apis" method="post">
+
+                    <script>
+
+  var form = document.getElementById('register');
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          fetch(form.action, {
+              method : "POST",
+              body: new FormData(document.getElementById("register")),
+          }).then(
+              response => response.json()
+          ).then((html) => {
+            // you can put any JS code here
+            window.open('etailor home.html', '_blank');
+
+          });
+        });
+</script>
+
+
+                    
+             
+             <label>Your Name: </label>
+             <br>
+             <input type="text" name="Your name" id="name" placeholder="Enter your Name">
+             <br><br>
+
+             <label>Your Gender: </label>
+             <br>
+             &nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your gender" id="male">
+             &nbsp;
+             <span>Male</span>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your Gender" id="female">
+             &nbsp;
+             <span>Female</span>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your gender" id="other">
+             &nbsp;
+             <span>Other</span>
+             <br><br>
+
+             <label>Number of Clothes: </label>
+             <br>
+             <input type="number" name="clothes" id="name" placeholder="number of clothes to stitch">
+             <br><br>
+
+             <label>Your Shirt: </label>
+             <br>
+             &nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your stitch" id="full shirt">
+             &nbsp;
+             <span>Full Shirt</span>             
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your stitch" id="half shirt">
+             &nbsp;
+             <span>Half shirt</span> 
+            
+              &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your stitch" id="none">
+             &nbsp;
+             <span>None</span> 
+             <br><br>           
+             
+
+             <label>Your Pant: </label>
+             <br>
+             &nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your stitch" id="full pant">
+             &nbsp;
+             <span>Full Pant</span> 
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your stitch" id=" half pant">
+             &nbsp;
+             <span>Half Pant</span> 
+             
+              &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your stitch" id=" none">
+             &nbsp;
+             <span>None</span> 
+             <br><br>
+
+
+              <label>: Your Measurements:</label>
+             <br>
+             <input type="text" name="Measurements" id="name" placeholder="Enter your Body Measurements">
+             &nbsp;
+             <button>I don't have my measurements</button>
+             <link rel="script" type="text/js" href="C:/Users/KIIT/etailor/location.js">
+             <script src="C:/Users/KIIT/etailor/location.js"></script>
+             <br><br>
+             <label>Enter Pincode: </label>
+             <br>
+             <input type="pincode" name="Enter pincode" id="name" placeholder="Enter your Shop pincode">
+             <br><br>
+
+             <label>Your Address: </label>
+             <br>
+             <input type="text" name="Your address" id="name" placeholder="Enter your address">
+             &nbsp;
+             <button>Your Current Location</button>
+             <script src="C:/Users/KIIT/etailor/location.js"></script>
+             <br><br>
+
+              <label>Your Contact Number: </label>
+             <br>
+             <input type="text" name="Your contact number" id="name" placeholder="Enter your contact number">
+             <br><br>
+
+              <label>Your Whatsapp Number: </label>
+             <br>
+             <input type="text" name="Your whatsapp number" id="name" placeholder="Enter your whatsapp number">
+             <br><br>
+
+             <label>Your Email id: </label>
+             <br>
+             <input type="email" name="Your Email id" id="name" placeholder="Enter your valid email id">
+             <br><br>
+
+             <label>Coupon code (if any): </label>
+             <br>
+             <input type="text" name="coupon code" id="name" placeholder="Enter your coupon code">
+             <br><br>
+
+             <button type="submit" value="submit" name="submit" id="submit" onclick="openpopup()">Order now & pay later</button>
+
+             <p>Already have an account?<a href="">Log in</a></p>
+
+             <div class="popup" id="popup">
+             <img src="C:/Users/KIIT/etailor/tick.png">
+             <h2>Thank You</h2>
+             <p>Your order has been placed successfully</p>
+             <button type="button" onclick="closepopup()" id="btn">OK</button>
+             </div>
+         </div>
+     </div>
+         </form>
+      
+
+
+</body>
+</html>
