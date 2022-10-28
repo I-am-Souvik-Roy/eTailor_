@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@500&family=Open+Sans&display=swap');
+
+
+
+body{
+	background-image: url("C:/Users/KIIT/etailor/gold-bg.jpg");
+    background-size: cover;
+    background-position: absolute;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+}
+
+h1{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 15px;
+	font-family: 'Montserrat', Alfa-slab-one;
+	color: rgba(0,136,169,1);
+}
+
+span{
+	color: white;
+}
+
+li,a,button{
+	font-family: "Montserrat", open-sans, Alfa-slab-one;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 10%;
+	align-items: center;
+	box-sizing:border-box;
+	margin:0;
+	padding: 0;
+	background-color: #24252A;
+	width: 100%;
+	height: 80px;
+	position: top;
+}
+
+
+.logo{
+	cursor: pointer;
+	float: left;
+}
+
+.nav_links{
+     list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	color: #0088a9;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover{
+	background-color: rgba(0,136,169,0.8);
+}
+
+.container{
+	width: 100%;
+	padding: 5px;
+	margin: 0;
+}
+
+.container .col-1 img{
+
+	width: 30%;
+	display: flex;
+	margin-top: 200px;
+	margin-left: 50px;
+	max-width: 600px;
+	max-height: 400px;
+	border: none;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.container .col-1 img:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+	opacity: 90%;
+    
+}
+
+.col-2 h1{
+	display: block;
+	width: 100%;
+	max-width: 100px;
+	font-size: 40px;
+	position: absolute;
+	padding: 20px;
+	margin-left: 660px;
+	margin-top: -460px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow:  1px 1px 5px rgba(0,0,0,0.3);
+	justify-content: center;
+}
+
+.col-1:after{
+	content: '';
+	width: 10px;
+	height: 57%;
+	position: relative;
+	margin-left: -500px;
+	margin-top: 100px;
+	background: black;
+}
+
+ article{
+	width: 100%;
+	background: black;
+}
+.col-2 h2{
+	display: inline;
+	font-family: "Montserrat", open-sans, Alfa-slab-one;
+	font-weight: 500;
+	font-size: 20px;
+	position: absolute;
+	padding: 20px;
+	margin-left: 570px;
+	margin-top: -380px;
+	text-decoration: none;
+	text-shadow:  1px 1px 5px rgba(0,0,0,0.3);
+	color: rgba(0,136,169,1);
+	border: black;
+
+}
+
+.col-2:after{
+	content: '';
+	width: 10px;
+	height: 57%;
+	position: absolute;
+	right: -40px;
+	top: 8px;
+	background: black;
+}
+
+.col-2 h3{
+	display: inline;
+	font-family: "Montserrat", open-sans, Alfa-slab-one;
+	font-weight: 500;
+	font-size: 20px;
+	position: absolute;
+	padding: 20px;
+	margin-left: 570px;
+	margin-top: -340px;
+	text-decoration: none;
+	text-shadow:  1px 1px 5px rgba(0,0,0,0.3);
+	color: rgba(0,136,169,1);
+	border: black;
+	
+}
+
+.container .col-2 img{
+
+	width: 100%;
+	display: inline;
+	padding: 0px;
+	margin-top: -420px;
+	margin-left: 400px;
+	max-width: 800px;
+	max-height: 500px;
+	border: none;
+	position: relative;
+	opacity: 70%;
+}
+
+.container .col-2 h3{
+	display: block;
+	font-family: "Montserrat", open-sans, Alfa-slab-one;
+	font-weight: 800;
+	font-size: 24px;
+	position: absolute;
+	padding: 20px;
+	margin-left: 530px;
+	margin-top: -250px;
+	text-decoration: none;
+	text-shadow:  1px 1px 5px rgba(0,0,0,0.3);
+	color: rgba(0,136,169,1);
+	border: black;
+}
+
+.container .col-2 h4{
+	display: block;
+	font-family: "Montserrat", open-sans, Alfa-slab-one;
+	font-weight: 800;
+	font-size: 24px;
+	position: absolute;
+	padding: 20px;
+	margin-left: 640px;
+	margin-top: -200px;
+	text-decoration: none;
+	text-shadow:  1px 1px 5px rgba(0,0,0,0.3);
+	color: rgba(0,136,169,1);
+	text-align: center;
+
+}
+
+.container .col-2 h5{
+	display: block;
+	font-family: "Montserrat", open-sans, Alfa-slab-one;
+	font-weight: 800;
+	font-size: 24px;
+	position: absolute;
+	padding: 20px;
+	margin-left: 630px;
+	margin-top: -150px;
+	text-decoration: none;
+	text-shadow:  1px 1px 5px rgba(0,0,0,0.3);
+	color: rgba(0,136,169,1);
+	border: black;
+}
+
+.button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	width: 70px;
+	height: 40px;
+	border: none;
+	border-radius: 50px;
+	margin-left: 600px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+footer img{
+	display: inline;
+	padding: 5px;
+	width: 20%;
+	cursor: pointer;
+	max-width: 20px;
+}

@@ -1,0 +1,162 @@
+	<html>
+	<head>
+		<title>Registration Form</title>
+		
+        <link rel="stylesheet" type="text/css" href="home.css">
+		<link rel="stylesheet" type="text/css" href="registration.css">
+	</head>
+	<body>
+        
+        <header>
+    <img class="logo" src="" alt="logo">
+    
+    <h1>e<span>TAILOR</span></h1>
+    <nav>
+
+    	<ul class="nav_links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    	</ul></nav>
+
+    	<a class="cta" href="registration.html" target="_blank"><button>Register</button></a>
+	</header>
+
+		<div class="main">
+			<link rel="stylesheet" type="text/css" href="
+		registration.css">
+
+		
+
+			<div class="register">
+
+			<h2>Register Here</h2>
+				<form id="register" action="https://sheetdb.io/apis" method="post">
+
+					<script>
+
+  var form = document.getElementById('register');
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          fetch(form.action, {
+              method : "POST",
+              body: new FormData(document.getElementById("register")),
+          }).then(
+              response => response.json()
+          ).then((html) => {
+            // you can put any JS code here
+            window.open('etailor home.html', '_blank');
+
+          });
+        });
+</script>
+
+
+					
+             
+             <label>Your Name: </label>
+             <br>
+             <input type="text" name="Your name" id="name" placeholder="Enter your Name">
+             <br><br>
+
+             <label>Your Gender: </label>
+             <br>
+             &nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your gender" id="male">
+             &nbsp;
+             <span>Male</span>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your Gender" id="female">
+             &nbsp;
+             <span>Female</span>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your gender" id="other">
+             &nbsp;
+             <span>Other</span>
+             <br><br>
+
+             <label>Your Business: </label>
+             <br>
+             &nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your business" id="seller">
+             &nbsp;
+             <span>Seller</span>             
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" name="Your business" id="tailor">
+             &nbsp;
+             <span>Tailor</span>            
+             <br><br>
+
+              <label>Name of your Business: </label>
+             <br>
+             <input type="text" name="Name of your business" id="name" placeholder="Enter the name of your Shop">
+             <br><br>
+
+              <label>Address of your Business: </label>
+             <br>
+             <input type="text" name="Address of your business" id="name" placeholder="Enter your Shop address">
+             &nbsp;
+             <button>Your Current Location</button>
+             <link rel="script" type="text/js" href="C:/Users/KIIT/etailor/location.js">
+             <script src="C:/Users/KIIT/etailor/location.js"></script>
+             <br><br>
+             <label>Enter Pincode: </label>
+             <br>
+             <input type="pincode" name="Enter pincode" id="name" placeholder="Enter your Shop pincode">
+             <br><br>
+
+             <label>Your Permanent Address: </label>
+             <br>
+             <input type="text" name="Your Permanent address" id="name" placeholder="Enter your address">
+             &nbsp;
+             <button>Your Current Location</button>
+             <script src="C:/Users/KIIT/etailor/location.js"></script>
+             <br><br>
+
+              <label>Your Contact Number: </label>
+             <br>
+             <input type="text" name="Your contact number" id="name" placeholder="Enter your contact number">
+             <br><br>
+
+              <label>Your Whatsapp Number: </label>
+             <br>
+             <input type="text" name="Your whatsapp number" id="name" placeholder="Enter your whatsapp number">
+             <br><br>
+
+             <label>Your Email id: </label>
+             <br>
+             <input type="email" name="Your Email id" id="name" placeholder="Enter your valid email id">
+             <br><br>
+
+             <label>Create a Password: </label>
+             <br>
+             <input type="text" name="Create a password" id="name" placeholder="Enter your valid email id">
+             <br><br>
+
+             <input type="submit" value="submit" name="submit" id="submit" onclick="openpopup()">
+
+             <p>Already have an account?<a href="">Log in</a></p>
+
+             <div class="popup" id="popup">
+             <img src="C:/Users/KIIT/etailor/tick.png">
+             <h2>Thank You</h2>
+             <p>Your Registration has been done successfully</p>
+             <button type="button" onclick="closepopup()" id="btn">OK</button>
+             </div>
+         </div>
+     </div>
+         </form>
+      
+
+
+
+
+
+
+
+
+				
+	
+	</body>
+	</html>
