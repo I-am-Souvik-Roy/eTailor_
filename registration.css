@@ -4,7 +4,7 @@
 }
 
 body{
-	background: url("C:/Users/KIIT/etailor/machine.jpg");
+	background: url("C:/Users/KIIT/etailor/gold-bg.jpg");
 	background-size: 130%;
     background-position: -200px 0px;
 
@@ -46,6 +46,7 @@ label{
 	font-size: 18px;
 	font-family: sans-serif;
 	font-style: italic;
+	color: rgba(0,136,169,1);
 }
 
 input#name{
@@ -57,6 +58,7 @@ input#name{
     background-color: #fff;
     box-shadow: inset 1px 1px 5px
     rgba(0,0,0,0.3);
+    color: rgba(0,136,169,1);
 }
 
 input#submit{
@@ -82,6 +84,11 @@ input#submit:hover{
 
 label,span,h2{
      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+     
+}
+
+label, h2{
+	color: rgba(0,136,169,1);
 }
 
 .popup{
@@ -150,6 +157,7 @@ p{
 	font-weight: 500;
 	color: white;
 	padding: 20px;
+	color: #ff9933;
 }
 
 p a{
